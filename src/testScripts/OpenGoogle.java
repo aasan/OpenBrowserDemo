@@ -10,7 +10,7 @@ public class OpenGoogle {
   public void f() throws InterruptedException {
 	  WebDriver driver = new FirefoxDriver();
 	  driver.get("http://google.com");
-	  driver.findElement(By.id("lst-ib")).sendKeys("Steve Jobs");
+	  driver.findElement(By.id("lst-ib")).sendKeys("Jobs");
 	  Thread.sleep(5000);
 	  driver.close();
   }
